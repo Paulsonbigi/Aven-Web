@@ -1,0 +1,71 @@
+.container{
+    max-width: 1200px !important;
+}
+.main-container{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    /* height: 500px; */
+}
+.engage-text{
+    width: 50%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.engage-text h3{
+    font-weight: 800;
+}
+.engage-text .details{
+    line-height: 2;
+}
+.engage-img{
+    background-image: url("../attend.png");
+    background-position: left;
+    left: 0px;
+    display: flex;
+    background-size: 300px;
+    width: 50%;
+    height: 500px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.layer-img{
+    height: 300px;
+    position: absolute;
+    /* width: 100px; */
+    bottom: 0px;
+    /* left: 100px; */
+    z-index: 3;
+}
+@media(max-width: 500px){
+    .main-container{
+        flex-direction: column;
+        padding: 0px 30px;
+    }
+    .engage-text{
+        width: 100%;
+    }
+    .engage-text h3{
+        font-weight: 800;
+        font-size: 35px;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .engage-img{
+        width: 100%;
+        background-position: center;
+        margin-top: 50px;
+        position: relative;
+        z-index: 3;
+    }
+    .engage-img img{
+        height: 250px;
+        position: absolute;
+        width: 250px;
+        object-position: right;
+        z-index: 0;
+        right: -40px;
+    }
+}

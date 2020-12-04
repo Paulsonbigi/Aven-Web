@@ -1,0 +1,98 @@
+.header-container{
+    background-color: transparent !important;
+    box-shadow: none !important;
+    display: flex !important;
+    height: 75px;
+    position: sticky;
+    top: 0;
+    justify-content: center;
+    padding: 40px 0;
+    z-index: 90;
+}
+.flex-display{
+    max-width: 1200px !important;
+    z-index: 90;
+}
+.main-display{
+    display: flex;
+    justify-content: space-between;
+}
+.main-display img{
+    max-height: 40px;
+    justify-content: center;
+}
+.nav-links{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    list-style: none;
+}
+.nav-links li a{
+    color: pink;
+    text-decoration: none;
+}
+.toggle{
+    color: red !important;
+    display: none !important;
+    right: 0px !important;
+}
+.dropdown{
+    display: none;
+}
+@media(max-width: 769px){
+    .header-container{
+        z-index: 90;
+        padding: 10px 0px;
+    }
+    .main-display img{
+        max-height: 20px;
+    }
+    .nav-links{
+        display: none;
+    }
+    .flex-display{
+        position: relative;
+    }
+    .toggle{
+        display: flex !important;
+        float: right;
+        position: absolute;
+        z-index: 100;
+    }
+    .dropdown{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        width: 100%;
+        justify-content: space-evenly;
+        background-color: #6246e4;
+        height: 300px;
+        left: 0px;
+        z-index: 10;
+        top: 70px;
+        /* opacity: 0; */
+        transform: translateY(-20px);
+        transition: all 1s;
+    }
+    .show{
+        top: -300px;
+        opacity: 1;
+        transition: all 1s;
+    }
+    .dropdown-links{
+        top: 0px;
+        height: 300px;
+        align-items: center;
+        justify-content: space-between;
+        display: flex;
+        padding: 40px;
+        flex-direction: column;
+        list-style: none;
+    }
+    .dropdown-links li a{
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 15px;
+        font-weight: 600;
+    }
+}

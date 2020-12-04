@@ -1,0 +1,6 @@
+.loader-show{
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}

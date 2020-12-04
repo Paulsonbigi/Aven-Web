@@ -1,0 +1,49 @@
+.container{
+    max-width: 1200px !important;
+}
+.main-container{
+    display: flex;
+    margin-bottom: 200px;
+}
+.engage-text{
+    width: 50%;
+    height: 500px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.engage-text h3{
+    font-weight: 800;
+}
+.engage-text .details{
+    line-height: 2;
+}
+.engage-img{
+    background-image: url("../engage.png");
+    background-position: left;
+    right: 0px;
+    background-size: 300px;
+    width: 50%;
+    height: 500px;
+    background-repeat: no-repeat;
+}
+@media(max-width: 500px){
+    .main-container{
+        flex-direction: column;
+        padding: 0px 30px;
+    }
+    .engage-img{
+        background-position: center;
+        width: 100%;
+    }
+    .engage-text{
+        width: 100%;
+    }
+    .engage-text h3{
+        font-weight: 800;
+        font-size: 35px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+}

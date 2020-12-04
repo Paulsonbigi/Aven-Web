@@ -1,0 +1,61 @@
+.main-container{
+    max-width: 1200px !important;
+    padding: 50px 0px;
+    
+}
+.member-container{
+    margin-bottom: 200px;
+}
+.member-container h4{
+    font-size: 20px;
+    font-weight: 800;
+    width: 90%;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.person-card{
+    color: rgb(248, 192, 201);
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.extra-details{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+.extra-details img{
+    width: 50px;
+    height: 50%;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+.extra-details h5{
+    font-size: 15px;
+    font-weight: 800;
+}
+.location{
+    font-size: 10px !important;
+    font-weight: 800;
+}
+@media (max-width: 500px){
+    .person-card{
+        padding: 10px;
+    }
+    .extra-details{
+        padding-top: 10px;
+    }
+    .extra-details h5{
+        font-size: 12px;
+    }
+    .content{
+        line-height: 1 !important;
+        font-size: 10px;
+    }
+    .location{
+        font-size: 8px !important;
+    }
+}

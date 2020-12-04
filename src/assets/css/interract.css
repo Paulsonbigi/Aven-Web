@@ -1,0 +1,35 @@
+.main-container{
+    max-width: 1200px !important;
+}
+.int-container{
+    display: flex;
+    flex-direction: column;
+}
+.int-container h4{
+    font-size: 20px;
+    font-weight: 500;
+    width: 90%;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.int-img{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+.int-img img{
+    height: 50px;
+    margin: 20px;
+}
+@media(max-width: 500px){
+    .int-container h4{
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    .int-img img{
+        height: 30px;
+        margin: 10px;
+    }
+}
