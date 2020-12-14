@@ -12,6 +12,8 @@ import Interract from "../components/Interract"
 import People from "../components/People"
 import Fade from "react-reveal/Fade"
 import Bounce from "react-reveal/Bounce"
+import Selection from "../components/Selection"
+import MotionText from "../components/MotionText"
 import Zoom from "react-reveal/Zoom"
 import Slide from "react-reveal/Slide"
 function Home() {
@@ -42,11 +44,13 @@ function Home() {
             </Container>
             </Slide>
             <Community/>
-            <Engage/>
+            <Engage />
+            <MotionText/>
             <Donations/>
             <Attend/>
             <People/>
-            <Interract/>
+            <Selection/>
+            <Interract />
             <Members/>
         </div>
     )

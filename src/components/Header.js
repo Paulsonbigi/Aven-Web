@@ -34,11 +34,11 @@ export default function ButtonAppBar() {
   return (
     <div>
       <AppBar position="static" className="header-container">
-        <Toolbar >
+        <Toolbar className="toolbar">
             <Container className="flex-display">
               <Box className="main-display">
                 <Box>
-                  <img src={Logo} alt=""/>
+                  <Link to="/"><img src={Logo} alt=""/></Link>
                 </Box>
                 <Box>
                   <ul className="nav-links">

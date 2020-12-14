@@ -1,0 +1,13 @@
+.motion-card{
+    padding: 20px !important;
+    background-color: rebeccapurple !important;
+    max-width: 400px !important;
+    height: 150px;
+    margin: 0 auto;
+}
+.card-text{
+    justify-content: center;
+    align-items: left;
+    color: #ffffff !important;
+    text-align: center !important;
+}
